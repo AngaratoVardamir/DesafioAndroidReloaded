@@ -36,6 +36,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 #Mark{
     background-color: transparent;
@@ -96,13 +97,16 @@ main{
     padding: 10px;
     border-radius: 6px;
 }
-.LinkP > img{
+.LinkColum{
+    width: 100%;
+}
+.LinkP > .LinkColum > img{
     margin: 16px;
 }
-.LinkP > a{
+.LinkP > .LinkColum > a{
     background-color: var(--Dark20);
     width: 100%;
-    height: calc(var(--TamanhoYTotal) - 93%);
+    height: calc(var(--TamanhoYTotal) - 85%);
     border: 1px solid var(--BlueLZ);
     display: grid;
     place-items: center;
