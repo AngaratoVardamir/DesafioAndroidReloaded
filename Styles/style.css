@@ -46,11 +46,13 @@ header{
     width: 60px;
     height: 30px;
     margin: 10px;
-    
     background-image: url("Imagens/Logotipo-removebg-preview.png");
     background-size: cover;
     background-position: center bottom;
-
+    transition: .2s;
+    font-size: 1.5em;
+    display: grid;
+    place-content: center;
 }
 main{
     width: 100%;
@@ -95,7 +97,6 @@ main{
     text-align: center;
     background-color: var(--Dark30);
     padding: 10px;
-    border-radius: 6px;
 }
 .LinkColum{
     width: 100%;
@@ -112,6 +113,7 @@ main{
     place-items: center;
     margin-top: 12px;
     text-decoration: none;
+    transition: .2s;
 }
 #LinkClosed{
     background-color: var(--BlueLZ);

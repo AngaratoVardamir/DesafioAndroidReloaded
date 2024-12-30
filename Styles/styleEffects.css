@@ -1,0 +1,14 @@
+#Icon:hover{
+    width: 30px;
+    height: 30px;
+    background-color: var(--BlueLZ);
+    background-image: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid var(--Dark60);
+}
+.LinkP > .LinkColum > a:hover{
+    background-color: var(--BlueLZ);
+    color: var(--Dark60);
+    border-color: var(--Dark60);
+}
