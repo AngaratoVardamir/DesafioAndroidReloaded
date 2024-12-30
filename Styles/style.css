@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --Dark10:#121214;
+    --Dark20:#17171A;
+    --Dark30:#202024;
+    --Dark40:#252529;
+    --Dark50:#AFABB6;
+    --Dark60:#FFFFFF;
+    --BlueLZ:#0078D7;
+    --TamanhoYTotal: 100%;
+}
+@font-face{
+    font-family: "SpaceAge";
+    src: url("Fontes/space_age/space\ age.ttf");
+}
+@font-face{
+    font-family: "OpenSans";
+    src: url("Fontes/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf");
+}
+video, img{
+    width: 100px;
+}
+html, body{
+    background-color: var(--Dark10);
+    height: 100%;
+    width: 100%;
+}
+header{
+    font-family: "SpaceAge";
+    background-color: var(--Dark20);
+    width: 100%;
+    height: calc(var(--TamanhoYTotal) - 90%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Mark{
+    background-color: transparent;
+    color: var(--BlueLZ);
+}
+#Icon{
+    width: 60px;
+    height: 30px;
+    margin: 10px;
+    
+    background-image: url("Imagens/Logotipo-removebg-preview.png");
+    background-size: cover;
+    background-position: center bottom;
+
+}
+main{
+    width: 100%;
+    height: calc(var(--TamanhoYTotal) - 10%);
+    display: flex;
+    flex-direction: row;
+    font-family: "OpenSans";
+}
+.VideoP{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.VideoP > p{
+    margin: 16px;
+}
+.Panel > video{
+    width: calc(var(--TamanhoYTotal) - 5%);
+    border: 3px solid var(--BlueLZ);
+    border-radius: 6px;
+    cursor: pointer;
+}
+.ButtonP{
+    display: flex;
+}
+.Button{
+    width: 150px;
+    height: 100px;
+    background-color: var(--Dark30);
+    border: 1px solid var(--BlueLZ);
+    margin: 10px;
+    cursor: pointer;
+}
+.LinkP{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: var(--Dark30);
+    padding: 10px;
+    border-radius: 6px;
+}
+.LinkP > img{
+    margin: 16px;
+}
+.LinkP > a{
+    background-color: var(--Dark20);
+    width: 100%;
+    height: calc(var(--TamanhoYTotal) - 93%);
+    border: 1px solid var(--BlueLZ);
+    display: grid;
+    place-items: center;
+    margin-top: 12px;
+    text-decoration: none;
+}
+#LinkClosed{
+    background-color: var(--BlueLZ);
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    border: 1px solid var(--Dark60);
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    margin: 12px;
+    cursor: pointer;
+}
