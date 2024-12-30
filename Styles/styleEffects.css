@@ -12,3 +12,48 @@
     color: var(--Dark60);
     border-color: var(--Dark60);
 }
+
+.Button:hover{
+    border: 1px solid var(--Dark60);
+}
+.Button:hover > .IconButton{
+    background-color: var(--BlueLZ);
+    color: var(--Dark60);
+}
+.Button:hover > .ButtonText{
+    background-color: var(--Dark10);
+    color: var(--Dark60);
+}
+.Button:active{
+    border: 1px solid var(--BlueLZ);
+}
+.Button:active > .IconButton{
+    background-color: var(--Dark60);
+    color: var(--BlueLZ);
+}
+.Button:active > .ButtonText{
+    background-color: var(--Dark50);
+    color: var(--Dark10);
+}
+
+
+.Blocked:hover{
+    border: 1px solid var(--Dark30);
+}
+.Blocked:hover > .IconButton{
+    background-color: var(--Dark10);
+    color: var(--Dark30);
+}
+.Blocked:hover > .ButtonText{
+    background-color: var(--Dark20);
+    color: var(--Dark30);
+}
+.Blocked:active{
+    border: 1px solid var(--Dark50);
+}
+.Blocked:active > .IconButton{
+    color: var(--Dark50);
+}
+.Blocked:active > .ButtonText{
+    color: var(--Dark50);
+}

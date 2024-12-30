@@ -27,6 +27,7 @@ html, body{
     background-color: var(--Dark10);
     height: 100%;
     width: 100%;
+    color: var(--Dark60);
 }
 header{
     font-family: "SpaceAge";
@@ -61,6 +62,9 @@ main{
     flex-direction: row;
     font-family: "OpenSans";
 }
+.Panel{
+    position: relative;
+}
 .VideoP{
     display: flex;
     justify-content: center;
@@ -87,6 +91,31 @@ main{
     border: 1px solid var(--BlueLZ);
     margin: 10px;
     cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    transition: .2s;
+}
+.IconButton{
+    color: var(--BlueLZ);
+    height: 80%;
+    font-size: 3em;
+    display: grid;
+    place-content: center;
+}
+.ButtonText{
+    background-color: var(--Dark20);
+    color: var(--BlueLZ);
+    text-align: center;
+    height: 20%;
+    font-size: .6em;
+    display: grid;
+    place-content: center;
+}
+#Bugdroid{
+    position: absolute;
+    bottom: 2%;
+    left: 15%;
+    width: 250px;
 }
 .LinkP{
     position: relative;
@@ -114,6 +143,11 @@ main{
     margin-top: 12px;
     text-decoration: none;
     transition: .2s;
+}
+.LinkActive{
+    border: 1px solid var(--Dark60);
+    background-color: var(--BlueLZ);
+    color: var(--Dark60);
 }
 #LinkClosed{
     background-color: var(--BlueLZ);

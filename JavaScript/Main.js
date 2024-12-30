@@ -23,3 +23,11 @@ function ControleLogo() {
 }
 
 ControleLogo()
+
+const ButtonsBlocked = [...document.getElementsByClassName('Blocked')];
+
+
+ButtonsBlocked.map((BB) => {
+    BB.children[0].innerHTML = (`<i class="bi bi-lock"></i>`);
+    BB.children[1].innerHTML = (`Bloqueado`);
+})
