@@ -180,8 +180,11 @@ main{
     align-items: center;
     justify-content: center;
 }
+.C1{
+    flex: auto;
+}
 .C1 > article{
-    width: 800px;
+    width: 100%;
     height: 100%;
     background-color: var(--Dark20);
     overflow: scroll;
@@ -224,9 +227,6 @@ main{
     text-align: center;
     padding: 10px;
 }
-.C2{
-    flex: auto;
-}
 .ImgDroids{
     position: relative;
     display: flex;
@@ -239,8 +239,11 @@ main{
     margin: 10px;
     border-radius: 10px;
     border: 1px solid var(--Dark60);
+    transition: .5s;
+    overflow: hidden;
 }
 .ImgDroids > img{
     width: auto;
     height: 80%;
+    transition: .5s;
 }

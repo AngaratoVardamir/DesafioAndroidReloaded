@@ -67,3 +67,22 @@
 .AnimationSpanDroids > img{
     animation: RobotRunner 10s infinite linear;
 }
+.ImgDroids:hover{
+    cursor: pointer;
+    background-color: var(--Dark40);
+    box-shadow: var(--Dark60) 0px 0px 10px 0px, var(--Dark60) 0px 0px 0px 1px;
+}
+
+.DroidStop:hover > img{
+    transform: translateY(3px);
+}
+.DroidForce:hover > img{
+    width: 80%;
+    height: 80%;
+}
+.DroidRun:hover > img{
+    transform: translateX(-130%);
+}
+.DroidJump:hover > img{
+    transform: translateY(-6px);
+}
