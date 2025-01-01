@@ -50,6 +50,10 @@
         width: 50%;
         height: 40px;
     }
+    /**/
+    .C1 > article{
+        width: 460px;
+    }
 }
 @media only screen and (max-width: 700px) {
     #Icon{
@@ -76,5 +80,23 @@
         left: 42%;
         width: 100px;
         display: block;
+    }
+    /**/
+    #História_Android{
+        flex-direction: column-reverse;
+    }
+    .C1{
+        height: 550px;
+    }
+    .C1 > article{
+        width: 100%;
+        height: 100%;
+    }
+    .C2{
+        flex-direction: row;
+    }
+    .ImgDroids{
+        width: 90px;
+        height: 90px;
     }
 }

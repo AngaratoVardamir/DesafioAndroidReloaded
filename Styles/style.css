@@ -118,7 +118,6 @@ main{
     width: 250px;
 }
 .LinkP{
-    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -163,4 +162,85 @@ main{
     left: 0%;
     margin: 12px;
     cursor: pointer;
+}
+/* Pages dos Button */
+#História_Android{
+    top: 0%;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    background-color: var(--Dark10);
+}
+.Colum{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.C1 > article{
+    width: 800px;
+    height: 100%;
+    background-color: var(--Dark20);
+    overflow: scroll;
+    border-radius: 6px;
+}
+.AnimationSpanDroids{
+    overflow: hidden;
+    display: block;
+    background-color: var(--Dark30);
+    height: 50px;
+    width: 100%;
+    position: relative;
+    margin-bottom: 10px 0px;
+}
+.AnimationSpanDroids > img{
+    position: absolute;
+    height: 100%;
+    width: auto;
+}
+#Artigo > h1, #Artigo > h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+    font-family: "SpaceAge";
+    border: 1px solid var(--Dark50);
+    border-radius: 6px 6px 0px 0px;
+    color: var(--BlueLZ);
+}
+#Artigo > h1{
+    font-size: 1.5em;
+}
+#Artigo > h2{
+    font-size: 1.2em;
+}
+#Artigo > p{
+    font-family: "OpenSans";
+    font-size: 1em;
+    text-align: center;
+    padding: 10px;
+}
+.C2{
+    flex: auto;
+}
+.ImgDroids{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 150px;
+    height: 150px;
+    background-color: var(--BlueLZ);
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid var(--Dark60);
+}
+.ImgDroids > img{
+    width: auto;
+    height: 80%;
 }

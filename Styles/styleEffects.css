@@ -35,8 +35,6 @@
     background-color: var(--Dark50);
     color: var(--Dark10);
 }
-
-
 .Blocked:hover{
     border: 1px solid var(--Dark30);
 }
@@ -56,4 +54,16 @@
 }
 .Blocked:active > .ButtonText{
     color: var(--Dark50);
+}
+/* Animação */
+@keyframes RobotRunner {
+    to{
+        left: 100%;
+    }
+    from{
+        left: -10%;
+    }
+}
+.AnimationSpanDroids > img{
+    animation: RobotRunner 10s infinite linear;
 }
