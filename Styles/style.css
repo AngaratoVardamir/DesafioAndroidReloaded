@@ -163,7 +163,7 @@ main{
     margin: 12px;
     cursor: pointer;
 }
-/* Pages dos Button */
+/* Pages dos Button História_Android */
 #História_Android{
     top: 0%;
     position: absolute;
@@ -285,4 +285,80 @@ main{
     color: var(--BlueLZ);
     text-decoration: none;
     transition: .2s;
+}
+/* Pages dos Button História_Android */
+#QuestionPlus{
+    top: 0%;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    background-color: var(--Dark10);
+}
+.CQ1{
+    width: 100px;
+    height: 100%;
+    background-color: var(--Dark30);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.CQ2{
+    background-color: var(--Dark10);
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+}
+.CQ2 > h1{
+    background-color: var(--Dark20);
+    width: 100%;
+    height: 2em;
+    font-family: "SpaceAge";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.CQ2 > h3{
+    background-color: var(--Dark20);
+    width: 100%;
+    height: 2em;
+    font-family: "SpaceAge";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.CQ2 > p{
+    margin: 10px;
+    font-family: "OpenSans";
+}
+#ReLinksFoods{
+    background-color: var(--Dark10);
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+}
+#ReLinksFoods > span{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.LiFood{
+    width: 100px;
+    height: 100px;
+    border: 1px solid var(--BlueLZ);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+    cursor: pointer;
+    transition: .3s;
+}
+.LiFood:hover{
+    border-radius: 50%;
+    border-color: var(--Dark60);
+    color: var(--BlueLZ);
 }

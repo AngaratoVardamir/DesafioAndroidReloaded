@@ -48,10 +48,7 @@ ButtonX.map((BX) => {
 
 const ButtonWindow = [...document.getElementsByClassName('BunActive')];
 ButtonWindow.map((WB, Wix) => {
-    console.log(WB)
     WB.addEventListener("click",()=>{
-        Frame.map((FM)=>{
-            FM.style.display = "flex";
-        })
+        Frame[Wix].style.display = ("flex");
     })
 });
