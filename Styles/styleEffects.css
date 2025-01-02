@@ -61,11 +61,11 @@
         left: 100%;
     }
     from{
-        left: -10%;
+        left: -100%;
     }
 }
 .AnimationSpanDroids > img{
-    animation: RobotRunner 10s infinite linear;
+    animation: RobotRunner 6s infinite linear;
 }
 .ImgDroids:hover{
     cursor: pointer;
@@ -85,4 +85,27 @@
 }
 .DroidJump:hover > img{
     transform: translateY(-6px);
+}
+.ButtonX:hover{
+    border-radius: 50% 0px 50% 0px;
+    cursor: pointer;
+    border-color: var(--Dark60);
+    color: var(--BlueLZ);
+}
+@keyframes LinaFot {
+    0% {
+        left: 0;
+    }
+    50% {
+        left: calc(100% - 200px);
+    }
+    100% {
+        left: 0;
+    }
+}
+#Moldura{
+    animation: LinaFot 20s infinite ease-in-out;
+}
+.外部リンク:hover::after{
+    content: " 🔗";
 }

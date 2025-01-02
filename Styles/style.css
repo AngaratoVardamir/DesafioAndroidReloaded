@@ -167,23 +167,23 @@ main{
 #História_Android{
     top: 0%;
     position: absolute;
-    display: flex;
+    display: none;
     flex-direction: row;
     width: 100%;
     height: 100%;
     background-color: var(--Dark10);
 }
-.Colum{
+.ColumC{
     padding: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-.C1{
+.CC1{
     flex: auto;
 }
-.C1 > article{
+.CC1 > article{
     width: 100%;
     height: 100%;
     background-color: var(--Dark20);
@@ -203,6 +203,29 @@ main{
     position: absolute;
     height: 100%;
     width: auto;
+}
+#IrinaBlok{
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 150px;
+    margin: 5px 0px;
+    background-color: var(--Dark30);
+    display: flex;
+    align-items: center;
+}
+#Moldura{
+    position: absolute;
+    display: block;
+    background-color: var(--Dark40);
+    background-image: url(Imagens/Irina_Blok.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 180px;
+    height: 120px;
+    border: 8px solid var(--Dark50);
+    border-radius: 4px;
 }
 #Artigo > h1, #Artigo > h2{
     display: flex;
@@ -224,8 +247,19 @@ main{
 #Artigo > p{
     font-family: "OpenSans";
     font-size: 1em;
-    text-align: center;
-    padding: 10px;
+    text-align: left;
+    padding: 20px;
+    text-indent: 30px;
+}
+.ButtonX{
+    width: 50px;
+    height: 50px;
+    border: 1px solid var(--BlueLZ);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s;
 }
 .ImgDroids{
     position: relative;
@@ -246,4 +280,9 @@ main{
     width: auto;
     height: 80%;
     transition: .5s;
+}
+.外部リンク{
+    color: var(--BlueLZ);
+    text-decoration: none;
+    transition: .2s;
 }

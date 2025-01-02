@@ -83,14 +83,14 @@
     #História_Android{
         flex-direction: column-reverse;
     }
-    .C1{
+    .CC1{
         height: 550px;
     }
-    .C1 > article{
+    .CC1 > article{
         width: 100%;
         height: 100%;
     }
-    .C2{
+    .CC2{
         flex-direction: row;
     }
     .ImgDroids{
